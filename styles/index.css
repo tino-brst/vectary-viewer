@@ -1,0 +1,36 @@
+#viewer-controls {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: white;
+  border-top: 1px solid whitesmoke;
+  padding: 6px 8px;
+  opacity: 0.9;
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+button {
+  margin: 6px 4px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: rgb(50, 50, 50);
+  font-weight: 500;
+  background-color: rgb(0, 0, 0, 0.04);
+  transition: background-color 100ms, box-shadow 100ms;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0, 0.09);
+}
+
+button:active {
+  background-color: rgb(0, 0, 0, 0.13);
+}
+
+button:focus {
+  box-shadow: 0 0 0 2px rgba(240, 159, 10, 0.5);
+}
