@@ -2,8 +2,9 @@
 
 Basic project built to explore the [Vectary Viewer API](https://vectary.github.io/viewer-api/#/).
 
-> To run it, simply [download the code](https://github.com/AgustinBrst/vectary-viewer/archive/main.zip) and open the
-> `index.html` file with your favorite browser.
+> To see it in action, simply [download the project](https://github.com/AgustinBrst/vectary-viewer/archive/main.zip),
+> extract it, and run `npx serve` from a terminal inside the project folder. Opening any of the presented locations in a
+> browser will do.
 
 ![screenshot](./docs/screenshot.png)
 
